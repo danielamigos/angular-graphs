@@ -1,5 +1,9 @@
 # AngularGraphs
 
+This project is to display and issue I am having with Angular4 + D3v4 + and Dragging a node.
+
+Demo: https://danielamigos.github.io/angular-graphs/dist/index.html
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
 
 ## Development server
