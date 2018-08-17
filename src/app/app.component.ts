@@ -112,7 +112,8 @@ export class AppComponent implements OnInit {
       .attr('cx', function (d) { return d.x; })
       .attr('cy', function (d) { return d.y; });
   }
-  dragstarted(d) {
+  dragstarted(d) {    
+    d3.event.sourceEvent.stopPropagation();
     if (!d3.event.active) {
       this.simulation.alphaTarget(0.3).restart();
     }
